@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page By Aditya Kumar</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f7f7f7;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background: linear-gradient(to right, #FF416C, #e82e0d);
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            padding: 20px 0;
+        }
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 20px;
+            font-weight: 600;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        .hero {
+            background-image: url('your-hero-image.jpg');
+            background-size: cover;
+            background-position: center;
+            color: #fff;
+            text-align: center;
+            padding: 100px 0;
+        }
+        h1 {
+            font-size: 3rem;
+            margin-bottom: 20px;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+        }
+        p {
+            font-size: 1.5rem;
+            margin-bottom: 40px;
+        }
+        .cta-button {
+            background: linear-gradient(to right, #FF416C, #FF4B2B);
+            color: #fff;
+            border: none;
+            padding: 15px 30px;
+            font-size: 1.2rem;
+            border-radius: 5px;
+            text-transform: uppercase;
+            cursor: pointer;
+            transition: background 0.3s;
+        }
+        .cta-button:hover {
+            background: linear-gradient(to right, #FF4B2B, #FF416C);
+        }
+        .features {
+            background-color: #f0f0f0;
+            padding: 50px 0;
+            text-align: center;
+        }
+        .feature {
+            display: inline-block;
+            width: 30%;
+            margin: 0 2%;
+            padding: 20px;
+            border: 2px solid #FF4B2B;
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+        }
+        .feature img {
+            width: 100px;
+            height: 100px;
+            margin-bottom: 20px;
+        }
+        .feature h2 {
+            font-size: 1.8rem;
+            margin-bottom: 20px;
+            color: #FF416C;
+        }
+        .feature p {
+            font-size: 1.2rem;
+        }
+        footer {
+            background: linear-gradient(to right, #FF416C, #FF4B2B);
+            color: #fff;
+            text-align: center;
+            padding: 20px 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to Our Landing page.</h1>
+        <nav>
+            <a href="#sectionA">Section A</a>
+            <a href="#sectionB">Section B</a>
+            <a href="#sectionC">Section C</a>
+        </nav>
+    </header>
+    <div class="container">
+        <section id="section1" class="hero">
+            <a href="#section2" class="cta-button">Learn More</a>
+        </section>
+        <section id="section2" class="features">
+            <div class="feature">
+                <img src="premium_photo-1678565202049-9e37b2da8060.png" alt="Feature 1">
+                <h2>Feature 1</h2>
+                <p>Description for Feature 1.</p>
+            </div>
+            <div class="feature">
+                <img src="Unknown-2.jpeg" alt="Feature 2">
+                <h2>Feature 2</h2>
+                <p>Description for Feature 2.</p>
+            </div>
+            <div class="feature">
+                <img src="Unknown.jpeg" alt="Feature 3">
+                <h2>Feature 3</h2>
+                <p>Desciption of Feature 2.</p>
+            </div>
+        </section>
+    </div>
+    <footer>
+        &copy; 2023 Aditya Kumar
+    </footer>
+</body>
+</html>
